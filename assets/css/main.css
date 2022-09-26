@@ -1,0 +1,186 @@
+body {
+    box-sizing: border-box;
+}
+
+.comtainer {
+    width: 80%;
+    margin: 10px 10%;
+}
+
+.nav-setting {
+    font-size: 20px !important;
+    color: var(--text-color);
+    min-height: 50px;
+}
+
+.main-content {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+}
+
+.main-content::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+.page-scroll {
+    display: block; 
+    width: 100%;
+    height: fit-content;
+    font-size: 5em;
+    padding: 2%;
+    position: relative;
+  }
+
+.page-title {
+    display: block;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+}
+
+.ex1-1-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(43, 160, 228);
+}
+
+.ex1-1 img {
+    width: 80px;
+}
+
+.ex1-1 p {
+    font-size: 20px;
+}
+
+.ex1-2-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ex1-2-btnbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex1-2-btn {
+    text-decoration: none;
+    display: block;
+    background-color: #333;
+    font-size: 16px;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    margin: 0 20px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.ex1-3-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg);
+}
+
+.ex1-3-content p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.ex1-3-btn {
+    text-decoration: none;
+    background-color: rgb(197, 55, 36);
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 2px 5px rgba(0,  0, 0, 0.1);
+    color: #fff;
+}
+
+.ex1-4-content {
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.ex1-4-circle {
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(0, 245, 237);
+    border-radius: 50%;
+}
+
+.ex1-4-input {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid var(--text-color);
+    margin: 20px 0;
+}
+
+.ex1-4-input::-webkit-input-placeholder {
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.ex1-4-btn {
+    background-color: rgb(0, 245, 237);
+}
+
+.ex1-5-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+.ex1-5-content img {
+    width: 300px;
+}
+
+.content-box {
+    margin-left: 14px;
+}
+
+.content-box h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.ex1-5-btn {
+    background-color: #fff;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+}
